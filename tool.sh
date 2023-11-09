@@ -26,7 +26,7 @@ changeCardImages() {
 
         cp "$file" "$folderPath/$new_filename"
 
-        ( (index++))
+        ((index++))
     done
 }
 
@@ -47,7 +47,7 @@ changeTestImages() {
 
         cp "$file" "$folderPath/$new_filename"
 
-        ( (index++))
+        ((index++))
     done
 }
 
@@ -70,7 +70,7 @@ changePassingProbImages() {
 }
 
 changeGGService() {
-    folderPath="$SynoPath/$folderName/android"
+    folderPath="$SynoPath/$folderName/android/google-services-prod"
     if [[ -n $(find "$folderPath" -type f -print -quit) ]]; then
         rm "$folderPath/google-services.json"
     fi
@@ -94,7 +94,7 @@ changeCardIcons() {
 
         cp "$file" "$folderPath/$new_filename"
 
-        ( (index++))
+        ((index++))
     done
 }
 
