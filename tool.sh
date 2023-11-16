@@ -5,6 +5,7 @@
 chmod +x ./tool.sh
 
 folderName=$1
+changeName=$2
 SynoPath="/Users/user/SynologyDrive"
 DesignPath="/Users/user/SyncFlutterApp/SynologyDrive/designer"
 DevPath="/Users/user/SyncFlutterApp/SynologyDrive/developer"
@@ -81,21 +82,41 @@ changeGGService() {
 changeCardIcons() {
     folderPath="$SynoPath/$folderName/android/assets/topic_icons"
     if [[ -n $(find "$folderPath" -type f -print -quit) ]]; then
-        rm "$folderPath"/*.svg
+        for file in "$folderPath"/*; do
+            if [[ -f "$file" && "$file" == *.* ]]; then
+                rm "$file"
+            fi
+        done
     fi
+
     source_folder="$DesignPath/$folderName/app_images/icons"
     index=0
+    
+    if [[ $changeName != "null" ]]; then
+        source_folder="$DesignPath/$changeName/app_images/icons"
+    else
+        source_folder="$DesignPath/$folderName/app_images/icons"
+    fi
 
-    for file in "$source_folder"/*.svg; do
-        filename=$(basename "$file")
-        extension="${filename##*.}"
+    for file in "$source_folder"/*.png; do
+        if [[ -f "$file" && "$file" == *.png ]]; then
+            filename=$(basename "$file")
+            extension="${filename##*.}"
 
-        new_filename="topic_icon_$index.$extension"
+            new_filename="topic_icon_$index.$extension"
 
-        cp "$file" "$folderPath/$new_filename"
+            cp "$file" "$folderPath/$new_filename"
 
-        ((index++))
+            ((index++))
+        fi
     done
+
+
+    if find "$folderPath" -name '*.png' -print -quit | grep -q .; then
+        echo "The directory contains .png files."
+    else
+        echo "$folderName"
+    fi
 }
 
 changeQuestionImages() {
@@ -108,13 +129,13 @@ changeQuestionImages() {
 }
 
 process() {
-    changeCardImages
-    changeTestImages
-    changeSplashImages
-    changePassingProbImages
-    changeGGService
+    # changeCardImages
+    # changeTestImages
+    # changeSplashImages
+    # changePassingProbImages
+    # changeGGService
     changeCardIcons
-    changeQuestionImages
+    # changeQuestionImages
 }
 
 process

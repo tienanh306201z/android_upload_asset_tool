@@ -45,6 +45,25 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:b3889f7829c472b107a366",
+        "android_client_info": {
+          "package_name": "com.sima.mcat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:915912811155:android:0861da8c1ae642cf07a366",
         "android_client_info": {
           "package_name": "com.sima.paramedic"
@@ -200,6 +219,25 @@
         "mobilesdk_app_id": "1:915912811155:android:1879404c1ff1757107a366",
         "android_client_info": {
           "package_name": "com.sima.sie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:70657825d40bfed407a366",
+        "android_client_info": {
+          "package_name": "com.sima.usmle"
         }
       },
       "oauth_client": [],
