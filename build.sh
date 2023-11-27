@@ -6,7 +6,7 @@ chmod +x ./build.sh
 
 # ./tool.sh asvab null
 # ./tool.sh comptia
-# ./tool.sh comptiaa null
+./tool.sh comptiaa null
 # ./tool.sh comptia_security comptiasecurity
 # ./tool.sh comptia_network comptianetwork
 # ./tool.sh cdl  null
@@ -46,7 +46,7 @@ chmod +x ./build.sh
 # ./tool.sh ccsp      null      
 # ./tool.sh gre       null      
 # ./tool.sh cen      null       
-./tool.sh chspe    null       
+# ./tool.sh chspe    null       
 # ./tool.sh cpa      null       
 # ./tool.sh cpce    null        
 # ./tool.sh comptiaitf    null  

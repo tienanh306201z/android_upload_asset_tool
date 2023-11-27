@@ -90,7 +90,6 @@ changeCardIcons() {
     fi
 
     source_folder="$DesignPath/$folderName/app_images/icons"
-    index=0
     
     if [[ $changeName != "null" ]]; then
         source_folder="$DesignPath/$changeName/app_images/icons"
@@ -101,13 +100,15 @@ changeCardIcons() {
     for file in "$source_folder"/*.png; do
         if [[ -f "$file" && "$file" == *.png ]]; then
             filename=$(basename "$file")
+            filename_without_icon="${filename#icon}"
+            filename_without_extension="${filename_without_icon%.png}"
             extension="${filename##*.}"
+
+            index=$((filename_without_extension - 1))
 
             new_filename="topic_icon_$index.$extension"
 
             cp "$file" "$folderPath/$new_filename"
-
-            ((index++))
         fi
     done
 
