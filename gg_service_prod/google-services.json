@@ -45,6 +45,139 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:2a5cf53c0cc2ffaf07a366",
+        "android_client_info": {
+          "package_name": "com.sima.australiancitizenship"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:8e64388ddfaa24a607a366",
+        "android_client_info": {
+          "package_name": "com.sima.awscerifiedsysopsadministrator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:8c8b7f1dea6c7b8707a366",
+        "android_client_info": {
+          "package_name": "com.sima.awscertifieddeveloper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:388d98e33087d61907a366",
+        "android_client_info": {
+          "package_name": "com.sima.awscss"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:c66e246acaf9879e07a366",
+        "android_client_info": {
+          "package_name": "com.sima.cast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:e1f7cd42d5de654007a366",
+        "android_client_info": {
+          "package_name": "com.sima.cfalevel2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915912811155:android:914087152b01fd0207a366",
+        "android_client_info": {
+          "package_name": "com.sima.journeymanelectrician"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBQdD4m59__19sU5djMJJiDJ2yMijAxbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:915912811155:android:b3889f7829c472b107a366",
         "android_client_info": {
           "package_name": "com.sima.mcat"

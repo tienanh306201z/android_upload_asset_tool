@@ -76,7 +76,14 @@ changeGGService() {
         rm "$folderPath/google-services.json"
     fi
     source_folder="."
-    cp "$source_folder/google-services.json" "$folderPath"
+    cp "$source_folder/gg_service_prod/google-services.json" "$folderPath"
+
+    folderPath="$SynoPath/$folderName/android"
+    if [[ -n $(find "$folderPath" -type f -print -quit) ]]; then
+        rm "$folderPath/google-services.json"
+    fi
+    source_folder="."
+    cp "$source_folder/gg_service_test/google-services.json" "$folderPath"
 }
 
 changeCardIcons() {
@@ -129,12 +136,12 @@ changeQuestionImages() {
 }
 
 process() {
-    # changeCardImages
-    # changeTestImages
-    # changeSplashImages
-    # changePassingProbImages
-    # changeGGService
-    changeCardIcons
+    changeCardImages
+    changeTestImages
+    changeSplashImages
+    changePassingProbImages
+    changeGGService
+    # changeCardIcons
     # changeQuestionImages
 }
 

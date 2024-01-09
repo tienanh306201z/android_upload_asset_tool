@@ -46,7 +46,7 @@ chmod +x ./build.sh
 # ./tool.sh ccsp      null      
 # ./tool.sh gre       null      
 # ./tool.sh cen      null       
-./tool.sh chspe    null       
+# ./tool.sh chspe    null       
 # ./tool.sh cpa      null       
 # ./tool.sh cpce    null        
 # ./tool.sh comptiaitf    null  
@@ -79,3 +79,9 @@ chmod +x ./build.sh
 # ./tool.sh mcat    null                      
 # ./tool.sh usmle   null                      
 # ./tool.sh cissp     null                    
+# ./tool.sh awscertifieddeveloper     null                    
+# ./tool.sh awscerifiedsysopsadministrator     null                    
+# ./tool.sh australiancitizenship     null                    
+./tool.sh journeymanelectrician     null                    
+# ./tool.sh cfalevel2     null                    
+# ./tool.sh cast     null                    
